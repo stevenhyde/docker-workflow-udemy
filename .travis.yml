@@ -12,7 +12,7 @@ deploy:
   provider: elasticbeanstalk
   region: "us-east-1"
   app: "docker-workflow-udemy"
-  env: "DockerWorkflowUdemy-env"
+  env: "DockerWorkflowUdemy-env-1"
   bucket_name: "elasticbeanstalk-us-east-1-426432506620"
   bucket_path: "docker-workflow-udemy"
   access_key_id: $AWS_ACCESS_KEY
