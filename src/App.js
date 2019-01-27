@@ -21,6 +21,7 @@ class App extends Component {
             rel="noopener noreferrer"
           >
             Learn React and test it in docker-compose!
+	    Switched to feature branch!
           </a>
         </header>
       </div>
