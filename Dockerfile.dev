@@ -1,0 +1,13 @@
+FROM node:alpine
+
+WORKDIR /app
+
+COPY ./package.json /app 
+
+RUN npm install
+
+# VOLUME /app/node_modules
+# VOLUME /home/sigi/devel/Grider-redis-tutorial-Udemy/cra/frontend /app
+COPY . .
+
+CMD [ "npm" , "run", "start" ]
