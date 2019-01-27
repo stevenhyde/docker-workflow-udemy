@@ -15,10 +15,10 @@ deploy:
   env: "DockerWorkflowUdemy-env"
   bucket_name: "elasticbeanstalk-us-east-1-426432506620"
   bucket_path: "docker-workflow-udemy"
+  access_key_id: $AWS_ACCESS_KEY
+  secret_access_key:
+    secure: "$AWS_SECRET_KEY"
   on:
     branch: master
-    access_key_id: $AWS_ACCESS_KEY
-    secret_access_key:
-      secure: "$AWS_SECRET_KEY"
 
 
